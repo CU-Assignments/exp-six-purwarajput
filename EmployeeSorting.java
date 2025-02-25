@@ -20,10 +20,10 @@ class Employee {
 public class EmployeeSorting {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
-                new Employee("Alice", 30, 50000),
-                new Employee("Bob", 25, 70000),
-                new Employee("Charlie", 35, 60000),
-                new Employee("David", 28, 80000)
+                new Employee("Purwa", 20, 90000),
+                new Employee("Prateek", 20, 70000),
+                new Employee("Lakshya", 15, 88000),
+                new Employee("Prince", 21, 80000)
         );
         
         employees.sort(Comparator.comparing(emp -> emp.name));
